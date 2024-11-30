@@ -1,0 +1,71 @@
+# Java & Spring related files
+*.class
+*.log
+*.war
+*.jar
+*.ear
+target/
+bin/
+out/
+
+# Maven build directories
+.mvn/
+.target/
+
+# Docker related
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# VS Code specific files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup and temporary files
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Files for storing credentials and secrets
+*.env
+.env.*
+
+# Logs
+logs/
+*.log
+log/
+
+# Database dumps (if any)
+*.sql
+
+# Docker volumes and containers data
+db-dump/
+volumes/
+
+# SonarQube specific
+sonarqube_data/
+sonarqube_extensions/
+sonarqube_logs/
+sonarqube_temp/
+
+# Build or auto-generated folders
+node_modules/
+
+# Local Maven repository
+.m2/
