@@ -101,7 +101,7 @@ Assurez-vous que les outils suivants sont installés :
 
 1. Cloner le Répertoire :
    ```bash
-   git clone https://github.com/younest9/tp-orchestration-docker.git
+   git clone 
    cd tp-orchestration-docker
    ```
 2. Configurez le fichier `.env` :
